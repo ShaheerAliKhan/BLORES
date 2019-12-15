@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat')
+body {
+	margin: 0;
+    padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	height: 65px;
+/*	width: 35px;*/
+	margin-right: -10px;
+}
+
+.aboutustext h1 {
+	color: white;
+	margin-left: 45px;
+	margin-top: 20px;
+}
+
+.AboutContent p {
+	margin-left: 45px;
+	margin-top: 35px;
+	color: white;
+}
+
+.AboutContent h4 {
+	margin-top: 70px;
+	margin-left: 45px;
+	color: white;
+}
+
+.Whychooseus ul {
+	margin-top: 40px;
+	margin-left: 40px;
+	color: white;
+}
+
+.image img {
+	max-width: 100%;
+	height: 70vh;
+}
+
+.contactHeading h1 {
+	color: red;
+	text-align: center;
+}
+
+.form-group label {
+	color: red;
+	margin-right: 28%;
+}
+	
+.LoginImage img {
+  opacity: 0;
+  filter: alpha(opacity=50);
+}
+
+.LoginSection {
+	width: 100%;
+	height: 70vh;
+}
+
+.LoginTextSect {
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 40%;
+	color: maroon;
+    z-index: 9;
+}
+
+.LoginImage {
+	position: absolute;
+}
+
+.LoginSection h1 {
+	position: absolute;
+	color: red;
+	margin-left: 46%;
+	margin-top: 8%;
+}
+
+.LoginTextSect .form-control {
+    display: block;
+    width: 150%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+     background-color: #4950576b;
+    background-clip: padding-box;
+    border: 1px solid #4950576b;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.login-password label {
+	font-weight: bold;
+}
+
+.login-username label {
+	font-weight: bold;
+}
+
+.LoginTextSect button.btn.btn-default {
+    margin-left: 45%;
+    color: red;
+    color: white;
+    background-color: maroon;
+    border-radius: 25px;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.LoginImage img {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.AddBloodSection {
+	width: 100%;
+	height: 70vh;
+}
+
+.AddBloodTextSect {
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 40%;
+	color: red;
+    z-index: 9;
+}
+
+.LoginImage {
+	position: absolute;
+}
+
+.AddBloodSection h1 {
+	position: absolute;
+	color: red;
+	margin-left: 46%;
+	margin-top: 5%;
+}
+
+.Add-Name label {
+	font-weight: bold;
+    color: maroon;
+}
+
+.Add-FName label {
+	font-weight: bold;
+    color: maroon;
+}
+
+.Add-Number label {
+	font-weight: bold;
+    color: maroon;
+}
+
+.Add-Date label {
+    color: maroon;
+	font-weight: bold;
+}
+
+.Add-Age label {
+	font-weight: bold;
+    color: maroon;
+}
+
+.Add-Gender label {
+	font-weight: bold;
+    color: maroon;
+}
+
+.Add-BGroup label {
+	font-weight: bold;
+    color: maroon;
+}
+
+.AddBloodTextSect button.btn.btn-default {
+    margin-left: 45%;
+    color: red;
+    color: white;
+    background-color: maroon;
+    border-radius: 25px;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.AddBloodTextSect .form-control {
+    display: block;
+    width: 150%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #black;
+    background-color: #4950576b;
+    background-clip: padding-box;
+    border: 1px solid #4950576b;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

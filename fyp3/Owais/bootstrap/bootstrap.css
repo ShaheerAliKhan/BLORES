@@ -1,0 +1,56 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-item {
+	margin-left: 15px;
+}
+
+.navbar-text {
+	font-size: 20px;
+	margin-top: 12px;
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 15px;
+
+}
+
+span.navbar-text {
+    color: red !important;
+}
+
+.nav-link {
+	font-size: 20px;
+	margin-top: 12px;
+	color: red !important;
+}
+
+.img-fluid {
+	width: 100%;
+	height: 92vh;
+}
+
+.col-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    float: left;
+}
+
+.col-6.textcolumn {
+    background-color: red;
+    height: 70vh;
+}
+
+button.btn.btn-default {
+    margin-left: 37%;
+    color: red;
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+}

@@ -1,0 +1,275 @@
+@font-face {
+    font-family: Century Gothic;
+    src: url(../fonts/GOTHIC.TTF);
+  }
+
+  p,a {
+      font-family: Century Gothic;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+      font-family: Century Gothic;
+      font-weight: 1000;
+  }
+
+  button:focus, textarea:focus, input:focus{
+    outline: none;
+}
+
+  body {
+      background: white;
+  }
+
+.main {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.brand-logo img {
+    height: 65px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
+nav a.nav-item {
+    color: maroon !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a.nav-item:hover {
+    color: black !important;
+}
+
+.navbar-collapse {
+    margin-left: 5% !important;
+}
+
+.heading h1{
+    color: black;
+    font-size: 20px;
+    margin-top: 12.5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.bg-light {
+    background: #fff !important;
+    box-shadow: 0px -55px 60px 20px black;
+}
+
+.colomns {
+    margin-top: 100px;
+}
+
+.midHeading {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.inputs {
+    text-align: center;
+}
+
+.commonInput {
+     margin-bottom: 10px;
+     border-radius: 50px;
+     border: 2px solid maroon;
+     width: 100%;
+     padding: 10px; 
+}
+
+.commonInput2 {
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border: 2px solid maroon;
+    width: 25%;
+    padding: 10px; 
+}
+
+.commonInput::placeholder {
+    font-family: Century Gothic;
+    padding-left: 5px;
+}
+
+.commonInput2::placeholder {
+    font-family: Century Gothic;
+    padding-left: 5px;
+}
+
+.loginButton {
+     width: 100%;
+     background: maroon;
+     border: 0px solid maroon;
+     color: #fff;
+     font-family: century gothic;
+     padding: 10px;
+     border-radius: 50px;
+     font-weight: bolder;
+     letter-spacing: 2px;
+}
+
+.loginButton:hover {
+    transition:0.3s ease-in-out;
+    background: #000;
+}
+
+.loginButton2 {
+    width: 100%;
+    background: maroon;
+    border: 0px solid maroon;
+    color: #fff;
+    font-family: century gothic;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    width: 25%;
+}
+
+.loginButton2:hover {
+    transition:0.3s ease-in-out;
+    background: #000;
+}
+
+.buttons p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.userDashboard {
+    margin-top: 50px;
+}
+
+.searchBarBox {
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 2px solid maroon;
+    padding: 10px;
+}
+
+.searchBarBox::placeholder {
+    font-family: century gothic;
+}
+
+.searchBar {
+    display: flex;
+    margin-top: 10px;
+}
+
+.searchBtn {
+    background: maroon;
+    border: 2px solid maroon;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #fff;
+    font-family: century gothic;
+    font-weight: bolder;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.navigationScreen {
+    width:100% ;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.navScreenHeading {
+    font-size: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .spacer {
+      margin-top: 30px;
+  }
+  
+  .spacer2 {
+      margin-top: 20px;
+  }
+
+  .spacer3 {
+      margin-top: 10px;
+  }
+
+  .usernameInputs input{
+      display: block;
+  }
+
+  .paddingIssue {
+      padding-left: 0;
+  }
+
+  .bbDetailsButtons  {
+      display: flex;
+  }
+
+  .timeCounterHeading {
+      margin-left: 10px;
+  }
+
+  /* BB Accordian Started */
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: whitesmoke;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  
+  
+  /* BB Accordian ENDED */
+
+
+.headingBBReg {
+    text-align: center;
+}
+
+.reservation p {
+  font-family: "Century Gothic";
+  font-size: 20px;
+}

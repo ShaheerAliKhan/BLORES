@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Century Gothic;
+    src: url(../fonts/GOTHIC.TTF);
+  }
+
+p,a {
+      font-family: Century Gothic;
+  }
+
+h1,h2,h3,h4,h5,h6 {
+      font-family: Century Gothic;
+      font-weight: 1000;
+}
+
+
+button:focus, textarea:focus, input:focus{
+    outline: none;
+}
+body {
+background-color:whitesmoke;
+}
+.spacer {
+    height: 50px;
+}
+
+.spacer1 {
+    height: 10px;
+}
+
+.spacer2{
+    height: 5px;
+}
+
+.loginForm {
+    display: grid;
+}
+
+.commonInput::placeholder {
+    font-family: Century Gothic;
+    padding-left: 2px;
+}
+
+.commonInput{
+    border-radius: 12px;
+    border: solid 2px lightgrey;
+    padding: 4px 4px;
+}
+
+.loginButton {
+    border-radius: 12px;
+    width: 48%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.buttons{
+    display: inline-flex;
+}
